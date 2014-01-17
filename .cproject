@@ -21,18 +21,18 @@
 						<toolChain id="com.qnx.qcc.toolChain.exe.debug.1457920850" name="QNX QCC" superClass="com.qnx.qcc.toolChain">
 							<option id="com.qnx.qcc.option.cpu.543140018" name="Target CPU:" superClass="com.qnx.qcc.option.cpu" value="com.qnx.qcc.option.gen.cpu.armle-v7" valueType="enumerated"/>
 							<targetPlatform archList="all" binaryParser="com.qnx.tools.ide.qde.core.QDEBynaryParser" id="com.qnx.qcc.targetPlatform.284407654" osList="all" superClass="com.qnx.qcc.targetPlatform"/>
-							<builder buildPath="${workspace_loc:/TroubleTaker/Device-Debug}" id="cdt.managedbuild.target.gnu.builder.base.505389028" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.base"/>
+							<builder buildPath="${workspace_loc:/TroubleTaker/Device-Debug}" id="cdt.managedbuild.target.gnu.builder.base.505389028" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cdt.managedbuild.target.gnu.builder.base"/>
 							<tool id="com.qnx.qcc.tool.compiler.208366882" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
 								<option id="com.qnx.qcc.option.compile.debug.139715017" name="Debug (-g)" superClass="com.qnx.qcc.option.compile.debug" value="true" valueType="boolean"/>
-								<option id="com.qnx.qcc.option.compiler.security.1844270687" name="Enhanced Security (-fstack-protector-all)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
+								<option id="com.qnx.qcc.option.compiler.security.1844270687" name="Enhanced Security (-fstack-protector-strong)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.defines.2033387229" name="Defines (-D)" superClass="com.qnx.qcc.option.compiler.defines" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE=2"/>
-								    <listOptionValue builtIn="false" value="GP_USE_GAMEPAD"/>
-								    <listOptionValue builtIn="false" value="GP_USE_SOCIAL"/>
+									<listOptionValue builtIn="false" value="GP_USE_GAMEPAD"/>
+									<listOptionValue builtIn="false" value="GP_USE_SOCIAL"/>
 								</option>
 								<option id="com.qnx.qcc.option.compiler.includePath.1368017357" name="Include Directories (-I)" superClass="com.qnx.qcc.option.compiler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/lua/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/lua/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/bullet/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/oggvorbis/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/gameplay/src&quot;"/>
@@ -57,7 +57,7 @@
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/armle-v7/lib"/>
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/armle-v7/usr/lib"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/gameplay/${ConfigName}&quot;"/>
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/lua/lib/blackberry/arm&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/lua/lib/blackberry/arm&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/bullet/lib/blackberry/arm&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/oggvorbis/lib/blackberry/arm&quot;"/>
 								</option>
@@ -73,7 +73,7 @@
 									<listOptionValue builtIn="false" value="OpenAL"/>
 									<listOptionValue builtIn="false" value="asound"/>
 									<listOptionValue builtIn="false" value="gameplay"/>
-                                    <listOptionValue builtIn="false" value="lua"/>
+									<listOptionValue builtIn="false" value="lua"/>
 									<listOptionValue builtIn="false" value="bullet"/>
 									<listOptionValue builtIn="false" value="vorbis"/>
 								</option>
@@ -91,6 +91,7 @@
 					</sourceEntries>
 				</configuration>
 			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 		</cconfiguration>
 		<cconfiguration id="com.qnx.qcc.configuration.exe.release.693953760">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.qnx.qcc.configuration.exe.release.693953760" moduleId="org.eclipse.cdt.core.settings" name="Device-Release">
@@ -110,18 +111,18 @@
 						<toolChain id="com.qnx.qcc.toolChain.exe.release.980420031" name="QNX QCC" superClass="com.qnx.qcc.toolChain">
 							<option id="com.qnx.qcc.option.cpu.1761526343" name="Target CPU:" superClass="com.qnx.qcc.option.cpu" value="com.qnx.qcc.option.gen.cpu.armle-v7" valueType="enumerated"/>
 							<targetPlatform archList="all" binaryParser="com.qnx.tools.ide.qde.core.QDEBynaryParser" id="com.qnx.qcc.targetPlatform.505505845" osList="all" superClass="com.qnx.qcc.targetPlatform"/>
-							<builder buildPath="${workspace_loc:/TroubleTaker/Device-Release}" id="cdt.managedbuild.target.gnu.builder.base.754548990" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.base"/>
+							<builder buildPath="${workspace_loc:/TroubleTaker/Device-Release}" id="cdt.managedbuild.target.gnu.builder.base.754548990" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cdt.managedbuild.target.gnu.builder.base"/>
 							<tool id="com.qnx.qcc.tool.compiler.1859104517" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
 								<option id="com.qnx.qcc.option.compiler.optlevel.1503352761" name="Optimization Level" superClass="com.qnx.qcc.option.compiler.optlevel" value="com.qnx.qcc.option.compiler.optlevel.2" valueType="enumerated"/>
-								<option id="com.qnx.qcc.option.compiler.security.1558473615" name="Enhanced Security (-fstack-protector-all)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
+								<option id="com.qnx.qcc.option.compiler.security.1558473615" name="Enhanced Security (-fstack-protector-strong)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.defines.679430995" name="Defines (-D)" superClass="com.qnx.qcc.option.compiler.defines" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE=2"/>
-								    <listOptionValue builtIn="false" value="GP_USE_GAMEPAD"/>
-								    <listOptionValue builtIn="false" value="GP_USE_SOCIAL"/>
+									<listOptionValue builtIn="false" value="GP_USE_GAMEPAD"/>
+									<listOptionValue builtIn="false" value="GP_USE_SOCIAL"/>
 								</option>
 								<option id="com.qnx.qcc.option.compiler.includePath.1438345058" name="Include Directories (-I)" superClass="com.qnx.qcc.option.compiler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/lua/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/lua/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/bullet/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/oggvorbis/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/gameplay/src&quot;"/>
@@ -144,7 +145,7 @@
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/armle-v7/lib"/>
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/armle-v7/usr/lib"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/gameplay/${ConfigName}&quot;"/>
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/lua/lib/blackberry/arm&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/lua/lib/blackberry/arm&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/bullet/lib/blackberry/arm&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/oggvorbis/lib/blackberry/arm&quot;"/>
 								</option>
@@ -160,7 +161,7 @@
 									<listOptionValue builtIn="false" value="OpenAL"/>
 									<listOptionValue builtIn="false" value="asound"/>
 									<listOptionValue builtIn="false" value="gameplay"/>
-                                    <listOptionValue builtIn="false" value="lua"/>
+									<listOptionValue builtIn="false" value="lua"/>
 									<listOptionValue builtIn="false" value="bullet"/>
 									<listOptionValue builtIn="false" value="vorbis"/>
 								</option>
@@ -178,6 +179,7 @@
 					</sourceEntries>
 				</configuration>
 			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 		</cconfiguration>
 		<cconfiguration id="com.qnx.qcc.configuration.exe.debug.882133523">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.qnx.qcc.configuration.exe.debug.882133523" moduleId="org.eclipse.cdt.core.settings" name="Simulator">
@@ -196,18 +198,18 @@
 					<folderInfo id="com.qnx.qcc.configuration.exe.debug.882133523." name="/" resourcePath="">
 						<toolChain id="com.qnx.qcc.toolChain.exe.debug.263886238" name="QNX QCC" superClass="com.qnx.qcc.toolChain">
 							<targetPlatform archList="all" binaryParser="com.qnx.tools.ide.qde.core.QDEBynaryParser" id="com.qnx.qcc.targetPlatform.826917653" osList="all" superClass="com.qnx.qcc.targetPlatform"/>
-							<builder buildPath="${workspace_loc:/TroubleTaker/Simulator}" id="cdt.managedbuild.target.gnu.builder.base.1025219170" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.base"/>
+							<builder buildPath="${workspace_loc:/TroubleTaker/Simulator}" id="cdt.managedbuild.target.gnu.builder.base.1025219170" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cdt.managedbuild.target.gnu.builder.base"/>
 							<tool id="com.qnx.qcc.tool.compiler.1408625066" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
 								<option id="com.qnx.qcc.option.compile.debug.1248630188" name="Debug (-g)" superClass="com.qnx.qcc.option.compile.debug" value="true" valueType="boolean"/>
-								<option id="com.qnx.qcc.option.compiler.security.2051337094" name="Enhanced Security (-fstack-protector-all)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
+								<option id="com.qnx.qcc.option.compiler.security.2051337094" name="Enhanced Security (-fstack-protector-strong)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.defines.1669819974" name="Defines (-D)" superClass="com.qnx.qcc.option.compiler.defines" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE=2"/>
-								    <listOptionValue builtIn="false" value="GP_USE_GAMEPAD"/>
-								    <listOptionValue builtIn="false" value="GP_USE_SOCIAL"/>
+									<listOptionValue builtIn="false" value="GP_USE_GAMEPAD"/>
+									<listOptionValue builtIn="false" value="GP_USE_SOCIAL"/>
 								</option>
 								<option id="com.qnx.qcc.option.compiler.includePath.456477750" name="Include Directories (-I)" superClass="com.qnx.qcc.option.compiler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/lua/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/lua/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/bullet/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/oggvorbis/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/gameplay/src&quot;"/>
@@ -232,7 +234,7 @@
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/x86/lib"/>
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/x86/usr/lib"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/gameplay/${ConfigName}&quot;"/>
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/lua/lib/blackberry/x86&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/lua/lib/blackberry/x86&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/bullet/lib/blackberry/x86&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/../GamePlay/external-deps/oggvorbis/lib/blackberry/x86&quot;"/>
 								</option>
@@ -248,7 +250,7 @@
 									<listOptionValue builtIn="false" value="OpenAL"/>
 									<listOptionValue builtIn="false" value="asound"/>
 									<listOptionValue builtIn="false" value="gameplay"/>
-                                    <listOptionValue builtIn="false" value="lua"/>
+									<listOptionValue builtIn="false" value="lua"/>
 									<listOptionValue builtIn="false" value="bullet"/>
 									<listOptionValue builtIn="false" value="vorbis"/>
 								</option>
@@ -266,8 +268,9 @@
 					</sourceEntries>
 				</configuration>
 			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 		</cconfiguration>
-		</storageModule>
+	</storageModule>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="net.SpiralGameDev.TroubleTaker" name="TroubleTaker"/>
 	</storageModule>
@@ -282,10 +285,18 @@
 		<scannerConfigBuildInfo instanceId="com.qnx.qcc.configuration.exe.debug.882133523">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
 		</scannerConfigBuildInfo>
-	
 	</storageModule>
-	<storageModule moduleId="refreshScope" versionNumber="1">
-		<resource resourceType="PROJECT" workspacePath="/TroubleTaker"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Device-Debug">
+			<resource resourceType="PROJECT" workspacePath="/TroubleTaker"/>
+		</configuration>
+		<configuration configurationName="Device-Release">
+			<resource resourceType="PROJECT" workspacePath="/TroubleTaker"/>
+		</configuration>
+		<configuration configurationName="Simulator">
+			<resource resourceType="PROJECT" workspacePath="/TroubleTaker"/>
+		</configuration>
 	</storageModule>
 	<storageModule moduleId="com.qnx.tools.ide.qde.core.QNXProjectProperties"/>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 </cproject>
