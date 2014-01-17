@@ -10,6 +10,8 @@ TroubleTaker::TroubleTaker()
 
 void TroubleTaker::initialize()
 {
+	//Elkin
+
     // Load game scene from file
     _scene = Scene::load("res/demo.scene");
 
@@ -45,7 +47,7 @@ void TroubleTaker::render(float elapsedTime)
 bool TroubleTaker::drawScene(Node* node)
 {
     // If the node visited contains a model, draw it
-    Model* model = node->getModel(); 
+    Model* model = node->getModel();
     if (model)
     {
         model->draw(_wireframe);
